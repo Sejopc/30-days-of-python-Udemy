@@ -45,6 +45,6 @@ try:
     email_conn.sendmail(from_email, to_list, the_msg.as_string())
     email_conn.quit()
     print("Email Sent Successfully.")
-    
+
 except smtplib.SMTPException:
     print("Error sending the message...")

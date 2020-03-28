@@ -12,7 +12,7 @@ class Animal():
         return self.noise
 
 dog = Animal()
-dog.make_noise()
+#dog.make_noise()
 dog.size = "Small"
 dog.color = "Black"
 dog.hair = "Hairless"
@@ -32,3 +32,5 @@ class Dog(Animal):
 jon = Dog()
 jon.color = 'White'
 jon.name = 'Jon Snow'
+print(jon.color)
+print(jon.name)

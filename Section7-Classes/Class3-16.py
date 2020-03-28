@@ -47,8 +47,8 @@ obj.add_user("Emilee", 124.32)
 obj.add_user("Jim", 323.4)
 obj.add_user("Ron", 23)
 obj.add_user("Sandra", 322.122323)
-obj.get_details()
-obj.make_messages()
+print(obj.get_details())
+print(obj.make_messages())
 
 default_names = ["Justin", "John", "Emilee", "Jim", "Ron", "Sandra", "Veronica", "Whitney"]
 default_amount = [123.32, 94.23, 124.32, 323.4, 23, 322.122323, 32.4, 99.99]
