@@ -1,0 +1,5 @@
+└──╼ $virtualenv -p python3 sms && cd sms
+
+└──╼ $source bin/activate
+
+
