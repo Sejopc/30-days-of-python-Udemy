@@ -28,7 +28,7 @@ template_html = get_template(file_html)
 context = {
     "name":'Jose',
     "date":'29/05/1995',
-    "total":299
+    "amount":299
 }
 
 print(render_context(template, context))

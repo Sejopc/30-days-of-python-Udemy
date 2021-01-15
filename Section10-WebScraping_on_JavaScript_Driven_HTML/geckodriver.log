@@ -106,3 +106,11 @@
 1594106954870	Marionette	INFO	Stopped listening on port 60022
 1594106958537	Marionette	INFO	Stopped listening on port 60696
 1594106961130	Marionette	INFO	Stopped listening on port 60257
+1610668154388	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lm/4gtyt54x3pj6zg9gk4f99q0w0000gn/T/rust_mozprofileMdBOTI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610668159068	Marionette	INFO	Listening on port 52904
+1610668159204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610668204748	Marionette	INFO	Stopped listening on port 52904
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

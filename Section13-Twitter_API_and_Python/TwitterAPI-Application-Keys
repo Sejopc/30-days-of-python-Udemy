@@ -1,0 +1,22 @@
+Link: https://developer.twitter.com/en/portal/projects
+
+==
+
+API_Token = "cbRROVi22K3hnjaW8eFX6pNVr"
+API_Secret_Key = "9v6ne3UhQxshWX3ozFFhMhxnWsD7sZjjHzOaTLaSCqOY6oBnZZ"
+Access_Token = "603925454-qHrOMfQggH8Zb8BbNSd1nZoYVAnHG7N1dpob9nWv"
+Access_Token_Secret = "5R2CH8gHRll9bNfsJh9jjAJAkqtZ4zTUIpAiEck27mnCr"
+Bearer Token: AAAAAAAAAAAAAAAAAAAAACksLwEAAAAA7ZvljEA0NJfsF8Q7jxVoeYIoZ8Y%3DKXTdSIWxx4JHKd8bXxBrlSrAjVDmZgVgr7RskBFXkfXDPsjx5P
+
+Instructions to start with the project:
+
+On this folder (Section13-Twitter_API_and_Python) create a virtual env:
+$ virtualenv -p python3 tweetup && tweetup
+$ source bin/activate
+$ touch tweet_it_up.py
+
+Github library we will be using:
+https://github.com/bear/python-twitter
+
+Install it inside virtualenv folder (tweetup):
+$pip3 install python-twitter
